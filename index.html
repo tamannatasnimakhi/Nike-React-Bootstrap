@@ -13,16 +13,322 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- -------------
+            custom styles
+        -------------- -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h2>Bootstrap</h2>
-    <header>
+    <!---------------
+         header start
+     --------------->
+    <header class="info-background">
+        <nav class="navbar navbar-expand-lg navbar-light background: #d63384">
+            <div class="container py-4">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="icons/Logo.png" alt="" width="295" height="40" class="d-inline-block align-text-top">
 
+                    </a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+                            <li class="nav-item">
+                                <a class="nav-link active  text-body" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-body" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-body" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-body" href="#">Contact Us</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="container d-flex justify-content-between">
+            <div class="py-5">
+                <img height="407px" width="407px" src="images/Group 33092.png" alt="">
+            </div>
+            <div class="py-5 text-wrap" height="360px" width="150px">
+                <h1 class="fs-1 text-uppercase pb-4 fw-bold "> <span class="text-warning"> Nike React
+                    </span><br>
+                    Infinity Run 2
+                </h1>
+                <p class="pb-4">Get laced up for training, sport and
+                    <br>
+                    lifestyle with the latest designs.
+                </p>
+                <button type="button" height="60px" width="170px"
+                    class="btn btn-primary text-uppercase rounded-3  data-bs-toggle=" modal"
+                    data-bs-target="#exampleModal">
+
+                    <img width="24px" height="24px" class="mx-2" src="icons/shopping-cart 1.png" alt=""> Buy
+                    Now</button>
+
+                <!-- <div class="modal" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Modal body text goes here.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
     </header>
+    <!---------------
+         header END
+     --------------->
     <main>
+        <!----------------------------- 
+            casual shoe section start 
+        ------------------------------->
+        <section class="container">
+            <h1 class="text-uppercase my-4 ">casual shoes</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded">
+                        <div class="p-4">
+                            <div class="bg-light rounded ">
+                                <img src="images/Daco_1703273 1.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold ">Nike Shoe</h5>
+                                <p class="card-text">Nike shoes include features like soft cushioned footbeds,
+                                    anti-bacterial, sweat dispersive.</p>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white my-2 d-flex justify-content-between border-0 ">
+                            <h2 class="text-danger fw-bolder">$234</h2>
+                            <button type="button" height="60px" width="170px"
+                                class="btn btn-primary text-uppercase rounded-3 ">
+                                <img width="24px" height="24px" class="mx-2" src="icons/shopping-cart 1.png" alt=""> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <div class="p-4">
+                            <div class="bg-light rounded">
+                                <img src="images/image 5.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Sneakers Skate Shoe</h5>
+                                <p class="card-text">Shop skate shoes from Vans, Adidas, Converse, Nike SB, Emerica,
+                                    Lakai,
+                                    DC Shoes and more..</p>
+                            </div>
+                        </div>
+                        <div class=" card-footer bg-white my-2 d-flex justify-content-between border-0 ">
+                            <h2 class="text-danger fw-bolder">$234</h2>
+                            <button type="button" height="60px" width="170px"
+                                class="btn btn-primary text-uppercase rounded-3 ">
+                                <img width="24px" height="24px" class="mx-2" src="icons/shopping-cart 1.png" alt=""> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <div class="p-4">
+                            <div class="bg-light">
+                                <img src="images/pngegg 1.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Sneakers Basketball Shoe</h5>
+                                <p class="card-text">Get the latest men's basketball shoes at DICK'S Sporting Goods.
+                                    Browse
+                                    all basketball shoes for men.</p>
+                            </div>
+                        </div>
+                        <div class=" card-footer bg-white my-2 d-flex justify-content-between border-0 ">
+                            <h2 class="text-danger fw-bolder">$234</h2>
+                            <button type="button" height="60px" width="170px"
+                                class="btn btn-primary text-uppercase rounded-3 ">
+                                <img width="24px" height="24px" class="mx-2" src="icons/shopping-cart 1.png" alt=""> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------------------- 
+            formal shoe section start 
+        ------------------------------->
+            <h1 class="text-uppercase my-4">formal shoes</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 pb-2">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <div class="p-4">
+                            <div>
+                                <img src="images/Mask Group.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Prestige High-Cut Leather</h5>
+                                <p class="card-text">When you think of dress shoes, you may not immediately think of
+                                    boots,
+                                    but maybe you should.</p>
+                            </div>
+                        </div>
+                        <div class=" card-footer bg-white my-2 d-flex justify-content-between border-0 ">
+                            <h2 class="text-danger fw-bolder">$234</h2>
+                            <button type="button" height="60px" width="170px"
+                                class="btn btn-primary text-uppercase rounded-3 ">
+                                <img width="24px" height="24px" class="mx-2" src="icons/shopping-cart 1.png" alt=""> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <div class="p-4">
+                            <div>
+                                <img src="images/Rectangle 38.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Slip-On Formal Shoe</h5>
+                                <p class="card-text">Buy Formal Shoes for men online at low prices.Check latest trending
+                                    from lace up, slip on and leather shoes online.</p>
+                            </div>
+                        </div>
+                        <div class=" card-footer bg-white my-2 d-flex justify-content-between border-0 ">
+                            <h2 class="text-danger fw-bolder">$234</h2>
+                            <button type="button" height="60px" width="170px"
+                                class="btn btn-primary text-uppercase rounded-3 ">
+                                <img width="24px" height="24px" class="mx-2" src="icons/shopping-cart 1.png" alt=""> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg ">
+                        <div class="p-4">
+                            <div>
+                                <img src="images/Rectangle 39.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Slip-On Formal Shoe</h5>
+                                <p class="card-text">Red tape men's slip-on smart shoes are also the most popular shoes
+                                    brought to you from the house of Red Tape.</p>
+                            </div>
+                        </div>
+                        <div class=" card-footer bg-white my-2 d-flex justify-content-between border-0 ">
+                            <h2 class="text-danger fw-bolder">$234</h2>
+                            <button type="button" height="60px" width="170px"
+                                class="btn btn-primary text-uppercase rounded-3 ">
+                                <img width="24px" height="24px" class="mx-2" src="icons/shopping-cart 1.png" alt=""> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -----------------------
+    last section start
+------------------------
+-------------------------- -->
+
+            <div class="container p-4">
+                <div class="d-flex justify-content-between p-4 rounded-3 ">
+                    <div>
+                        <div class="d-flex shadow-lg bg-light mb-4">
+                            <div class="p-4">
+                                <img height="80px" width="80px" src="icons/image 12.png" alt="">
+                            </div>
+                            <div class="p-4">
+                                <h2>Find the Perfect Fit</h2>
+                                <p>Everybody is different, which is why
+                                    <br>
+                                    we offer styles for every body.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex  shadow-lg bg-light mb-4 border-0  ">
+                            <div class="p-4">
+                                <img height="80px" width="80px" src="icons/image 13.png" alt="">
+                            </div>
+                            <div class="p-4">
+                                <h2>Free Exchanges</h2>
+                                <p>One of the many reasons you can shop
+                                    <br>
+                                    with peace of mind.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex  shadow-lg bg-light ">
+                            <div class="p-4">
+                                <img height="80px" width="80px" src="icons/image 14.png" alt="">
+                            </div>
+                            <div class="p-4">
+                                <h2>Contact Our Seller</h2>
+                                <p>They are here to help you.That's quite
+                                    <br> literally what we pay them for.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <img src="icons/XMLID 1.png" class="rounded mx-auto d-block height=" 800px" width="600px"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
 
     </main>
+
+    <!-- -------------
+        Modals
+    -------------- -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
 
     </footer>
@@ -31,7 +337,7 @@
         Bootstrap SCRIPT
     ----------------- -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
